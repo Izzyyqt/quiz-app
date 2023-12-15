@@ -199,6 +199,7 @@ function restartQuiz() {
     document.getElementById('timer').style.display = 'block';
     document.getElementById('score').style.display = 'block';
     document.getElementById('wtp').style.display = 'block';
+    document.getElementById('wtp').innerText = `Who's that Pokemon?!`
     bottomElement.removeChild(paragraphElement);
 }
 
