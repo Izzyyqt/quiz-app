@@ -9,6 +9,7 @@ body {
 @media (max-width: 500px) {
     .wrapper #quiz-container {
         width: 100%;
+        height: 100vh;
         border-radius: 0;
     }
     .wrapper #nextBtn {
